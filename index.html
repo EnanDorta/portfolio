@@ -9,11 +9,17 @@
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
   <!--HEADER-->
   <div class="container">
+    <div class="hamburguer" id="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>Fechar</span>
+    </div>
+
     <header>
       <div class="img-wrapper">
         <img src="img/bg.jpg" alt="imgBackground">
@@ -24,6 +30,23 @@
         <button>Saiba mais</button>
       </div>
     </header>
+    <div class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="https://github.com/enandorta" target="_blank"><i id="iconGit" class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/enan-dorta-590b8b196/" target="_blank"><i id="iconLinkedin" class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/goncalvess_junior/" target="_blank"><i id="iconInsta" class="fab fa-instagram"></i></a>
+      </div>
+    </div>
   </div> 
 </body>
+<script src="script.js"></script>
 </html>
