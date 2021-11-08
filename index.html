@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio do desenvolvedor</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="src/img/apple-touch-icon.png"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon-16x16.png"> 
 </head>
 <body>
   <!--HEADER-->
@@ -22,7 +22,7 @@
 
     <header>
       <div class="img-wrapper">
-        <img src="img/bg.jpg" alt="imgBackground">
+        <img src="/src/img/bg.jpg" alt="imgBackground">
       </div>
       <div class="banner">
         <h1>Web Developer & Front End Designer</h1>
@@ -30,7 +30,7 @@
         <button>Saiba mais</button>
       </div>
     </header>
-    <div class="sidebar">
+    <aside class="sidebar">
       <nav>
         <ul class="menu">
           <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -45,8 +45,112 @@
         <a href="https://www.linkedin.com/in/enan-dorta-590b8b196/" target="_blank"><i id="iconLinkedin" class="fab fa-linkedin"></i></a>
         <a href="https://www.instagram.com/goncalvess_junior/" target="_blank"><i id="iconInsta" class="fab fa-instagram"></i></a>
       </div>
-    </div>
+    </aside>
+    <section class="sessao-conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis ullam consequuntur sunt fuga, corrupti itaque obcaecati unde reiciendis blanditiis et quae libero. Quisquam, dolor sit. Laudantium provident a vitae dolore.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quasi repellendus nulla voluptate natus eum dignissimos, a quas sint repellat autem quis voluptatibus ducimus fugit quos suscipit ipsum, ab blanditiis.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Designer</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptate consequuntur ipsum soluta eos reprehenderit laboriosam esse voluptatibus! Incidunt magnam, consectetur debitis mollitia quia beatae quos cumque aliquam voluptatem nostrum.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dolorum labore obcaecati voluptatem ducimus? Assumenda eligendi placeat officiis qui ea debitis quasi doloremque, odit iste asperiores reiciendis excepturi quidem ad.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-bootstrap"></i>
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vel veniam alias, nulla inventore quam officia maxime sed obcaecati error similique est rerum suscipit ullam voluptatem, modi blanditiis consequuntur deleniti?</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e Github</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi culpa dignissimos expedita eaque, harum sit libero sed, dolor maxime fuga aliquam ullam ex tenetur tempora. Sit aperiam eos magnam voluptatem!</p>
+          </div>
+        </div>
+        <div class="conhecimentos-img-wrapper">
+          <img src="src/img/conhecimentos.png" alt="imgConhecimento">
+        </div>
+      </div>
+    </section>
+    <section class="sessao-projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="src/img/proj1.jpg" alt="img projeto ToDo">
+          </div>
+          <div class="card-info">
+            <h2>ToDo List</h2>
+            <h3>Javascript</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iure ea cumque vero quas repudiandae. Provident at id in, suscipit soluta unde quod nulla vel nemo nesciunt magni omnis facilis!</p>
+            <button>Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="src/img/proj2.jpg" alt="img projeto Maratona">
+          </div>
+          <div class="card-info">
+            <h2>Maratona</h2>
+            <h3>HTML, CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eveniet optio, odio vero odit consequuntur ipsum id consequatur dolorum error, necessitatibus quos impedit tenetur? Magni illum reprehenderit fuga recusandae. Quos.</p>
+            <button>Saiba Mais</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="src/img/proj3.jpg" alt="img projeto Casa Bela ">
+          </div>
+          <div class="card-info">
+            <h2>Casa Bela</h2>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum ad incidunt odit, cumque illo accusamus optio, repudiandae sint facere sit quisquam quo aliquid sunt aperiam dolore, ex eius ut.</p>
+            <button>Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </div> 
 </body>
-<script src="script.js"></script>
+<script src="/src/script.js"></script>
 </html>
