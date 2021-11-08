@@ -160,6 +160,7 @@ header{
   top: 0px;
   right: -20rem;
   transition-duration: 1s;
+  z-index: 99;
 }
 .show-menu .sidebar{
   right: 0;
@@ -350,6 +351,7 @@ header{
   color: white;
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 .card:hover .card-info{
   visibility: visible;
